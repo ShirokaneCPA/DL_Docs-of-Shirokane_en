@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Who can be an incorporator}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Foreign nationals Can Also Be incorporators}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Foreign Companies Can Also Be incorporators}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Who Can be Representative Directors and Directors}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}What should be a company organization}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Foreign nationals can be Representative Directors\/Directors}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Affects opening of bank accounts}{3}{subsection.2.3}
+\contentsline {section}{\numberline {3}My Profile}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Personal Information}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Mission}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Professional Career Summary}{5}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}M\&A Excellence}{5}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Cross-Border Collaboration \& Hong Kong IPO with IFRS}{6}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Transformation and Strategy in IPO Preparation}{6}{subsubsection.3.3.3}
