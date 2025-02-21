@@ -1,0 +1,154 @@
+
+\input{00preamble}
+
+\begin{document}
+
+\input{00typein_new}
+
+%=======================タイトルページ（表紙）==================
+
+\title{{\color{dominant} \Huge \nyuryokua} \\ {\large \nyuryokub}}
+\date{\nyuryokuc}
+\author{\color{dominant}\sffamily \bfseries Shirokane CPA Firm}
+
+\begin{titlepage}
+
+\title{{\color{dominant} \Huge \nyuryokua} \\ {\large \nyuryokub}}
+\date{\nyuryokuc}
+\author{\color{dominant}\sffamily \bfseries Shirokane CPA Firm}
+
+\maketitle  %HPテンプレート用にタイトルページの出力
+
+\end{titlepage}
+
+%=======================ヘッダー部================
+
+\lhead{}  %ヘッダー左側を非表示にするため。%で機能停止すれば、章立てが表示される。
+\rhead{\color{dominant} \nyuryokuc \ \ \ P.\ \thepage / \pageref{LastPage}}
+
+\cfoot{}  %ページ底中央を非表示するため。%で機能停止すれが、ページ数が表示される。
+\rfoot{\color{dominant} \sffamily \bfseries \href{http://www.shirokanecpa.com/}{http://www.shirokanecpa.com/} \\ \copyright 2025 Shirokane CPA Firm}
+
+%=======================表題部==================
+
+\vspace*{-20mm}
+\begin{center}
+\part*{\nyuryokud}
+\end{center}
+\vspace{15mm}
+
+%\begin{table}[h]
+%  \begin{tabular}{lcl}
+%    To & : & \nyuryokue \\
+%        &   & \nyuryokuee \\
+%    From & : & \nyuryokuf \\
+%    Subject & : & \nyuryokug \\
+%    Date & : & \nyuryokuh \\
+%  \end{tabular}
+%\end{table}
+
+ \renewcommand{\headrulewidth}{11pt}% secondgreen Line
+ \hbox to 120mm{%
+ \color{dominant} \leaders\hrule height11pt\hfil}
+
+%=====================目次=======================
+
+\vspace{18mm}
+{\color{dominant} \LARGE \bfseries Contenets}
+\vspace{-5mm}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\clearpage
+
+%======================本文部分（以下を作成）======
+\vspace{-20pt}
+
+
+%会社種類の選択について
+\section{Deciding on the type of company}
+
+\begin{coloritemize}
+\item We can support to establish all of the following entities.
+ \begin{itemize}
+ \item Kabushiki Kaisha (hereinafter KK, similar to Corporation in the U.S. and Public Limited Company in the G.B.)
+ \item Godo Kaisha (hereinafter GK, similar to Limited Liability Company in the U.S. and Limited Liability Partnership in the G.B. but GK does not use pass-through taxation.)
+ \item Gomei Kaisha
+ \item Goshi Kaisha
+ \item Ippan Shadan Hojin (hereinafter ISH, similar to Nonprofit Corporation in the U.S. and Company Limited by Guarantee in the G.B. but ISH activities are not limited to non-profit endeavors; they can also include commercial activities (businesses).)
+ \item Ippan Zaidan Hojin (hereinafter IZH)\footnote{Ippan Zaidan Hojin is created through the endowment more than JPY 3M) of assets by a founder. These assets are legally separated from the founder and must be used in accordance with the foundation’s stated purpose.}
+ \end{itemize}
+\item The process of establishing a company that offers legal protection to investors and can operate on a large scale is rigorous and, therefore, expensive.
+\item KK is recommended.
+\end{coloritemize}
+
+Those are four types of corporations stipulated in the Japanese ``Companies Act'': KKs, GKs, Gomei Kaisha (general partnership companies), and Goshi Kaisha (limited partnership companies). In addition, there are Ippan Shadan Hojin and Ippan Zaidan Hojin under the ``Act on General Incorporated Associations and General Incorporated Foundations''.
+
+\subsection{Target of incorporation services}
+We can support the establishment of any of those, but the comanies that can be used for business are KKs and GKs, which can realize indirect limited liability.
+
+ISHs are used when the purpose is membership activities, etc., or when used for business schemes.
+
+\subsection{Different establishment procedures}
+The incorporation procedures differ depending on the type of company. As a result, the complexity of the documents and procedures to be prepared for the establishment application differs, and the costs of registration and license taxes, etc. also differ.
+
+The establishment procedures for KK and Ippan-Zaidan-Hojin, where ownership and management are legally separated, are complex.
+
+\section{Recommended company}
+If the purpose is business, we recommend KK. GKs are usually used as investment vehicles and family-run businesses, and GKs may not be able to gain sufficient credit. In addition, GKs will fail the screening for opening a bank account after the company is established these days.
+
+A KK can be established with a single shareholder. It can also have just one director and no employees.
+
+If your business activities qualify for an ISH, we recommend establishing one. However, in practice, we believe this is often not the case.
+
+\clearpage
+\input{aboutme3}
+
+
+
+
+
+\end{document}
+
+%=======テンプレ======
+
+\section{}
+\subsection{}
+
+\begin{coloritemize}
+\begin{spacing}{0.95}
+  \item 
+  \item 
+  \item 
+  \item 
+%  \item 
+\end{spacing}
+\end{coloritemize}
+
+%======右側折り返しの表（タイトル4文字のケース）28文字を調整して利用======
+\begin{table}[h]
+  \begin{tabular}{lcp{28em}}
+    氏名 & : & Giovvani Pellone, ジォバニ・ペローネ \\
+    住所 & : & 東京都目黒区上目黒3-12-23-308 \\
+    生年月日 & : & 1964年7月18日 \\
+    国籍 & : & イタリア \\
+    VISA & : & 就労制限なし \\
+    結婚 & : & 既婚（日本人） \\
+    職業 & : & 工業デザイナー、クリエイティブ・ディレクター、グラフィック・デザイナー \\
+  \end{tabular}
+\end{table}
+
+%======表
+\begin{minipage}{120mm}
+  \begin{tabular}{llll}
+\hline
+ 事業の種類   & 主な収入 & 会計納税単位 & 備考 \\
+\hline
+  Airbnb事業 & ホストからの手数料収入 & 一般財団法人 & 地域活性化という公共性強調 \\
+  ピザ屋 & 飲食店売上 & 株式会社\footnote{当初はアメリカン・ダイナーと同一法人で事業を開始し、後にアメリカン・ダイナーの会社を設立し、必要資産を営業譲渡する方法も考えられます。} & 初期投資が必要、従業員あり \\
+  アメリカン・ダイナー & 飲食店売上 & 株式会社 & 初期投資が必要、従業員あり \\
+  ヨガ・スタジオ事業 & レッスン料収入 & 個人事業主 & 河辺家の節税目的 \\
+  河辺さん個人 & 一般財団法人からの給与所得 & 個人事業主 & \\
+  & 飲食会社からの役員報酬 &  & \\
+  \hline
+  \end{tabular}
+\end{minipage}
