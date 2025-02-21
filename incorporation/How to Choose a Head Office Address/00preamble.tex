@@ -1,0 +1,84 @@
+\documentclass[dvipdfmx, a4paper,10pt,titlepage]{article}
+
+\usepackage{etex}
+
+\usepackage{multicol}
+\usepackage{alltt}
+\usepackage{fancybox}
+\usepackage{fancyhdr}
+\usepackage[dvipdfmx]{color}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\pagestyle{fancy}
+\usepackage{tabularx}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipsnames]{pstricks}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{setspace}
+\usepackage{lastpage}
+\usepackage[all]{background}
+%\usepackage{showframe}
+\usepackage{tikz}
+\usepackage{wallpaper}
+\usepackage{lastpage}
+\usepackage{wrapfig}
+\usepackage{fontawesome}
+
+\topmargin=0mm
+\headheight=23mm
+\headsep=65pt
+\footskip=50pt
+\oddsidemargin=55mm
+\evensidemargin=20mm
+\textwidth=108mm
+\textheight=197mm
+%\setstretch{0.8}
+
+
+\ULCornerWallPaper{1.0}{fullcolor002.png}  %左上ロゴ表示
+
+
+\definecolor{lightgreen}{cmyk}{ 0.2, 0, 0.2, 0}
+\definecolor{maingreen}{cmyk}{ 1, 0.6, 0.3, 0.2}
+\definecolor{dominant}{cmyk}{1, 0.1, 0.7, 0.2}
+
+ \renewcommand{\headrulewidth}{11pt}% header rule
+  \renewcommand{\headrule}{\hbox to 120mm{%
+    \color{dominant} \leaders\hrule height11pt\hfil}}
+
+\renewcommand{\contentsname}{} %「目次」の消去
+
+%======見出し設定
+
+\makeatletter
+\renewcommand{\part}{\@startsection
+{part}{0}{0mm}{25mm}{15mm}{\itshape \bfseries \Huge}}
+\makeatother
+
+\makeatletter
+\renewcommand{\section}{\@startsection
+{section}{3}{-60mm}{20mm}{5mm}{\color{dominant} \bfseries \LARGE}}
+\makeatother
+
+
+\makeatletter
+\renewcommand{\subsection}{\@startsection
+{subsection}{3}{-60mm}{5mm}{3mm}{\color{dominant} \Large}}
+\makeatother
+
+%======丸囲み数字の利用\maru{数字}
+
+\newcommand{\maru}[1]{\ooalign{
+\hfil\resizebox{.8\width}{\height}{#1}\hfil
+\crcr
+\raise.1ex\hbox{\large$\bigcirc$}}}
+
+%========箇条書きのグリーンドット========
+\newlist{coloritemize}{itemize}{1}
+\setlist[coloritemize]{label=\textcolor{itemizecolor}{\textbullet}}
+\colorlet{itemizecolor}{dominant}% Default colour for \item in itemizecolor
+
