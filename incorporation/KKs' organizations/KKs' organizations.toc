@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Japan Companies Act\footnote {We use translated terms as noted on the Japan e-Government website.}}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Four Types of Companies}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Requirement to File a Tax Return}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}K.K. Organizational Structure}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Number of Board Members}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Directors}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Company Auditor}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Financial Auditor}{3}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Accounting Advisor}{4}{subsection.2.5}
+\contentsline {section}{\numberline {3}My Profile}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Personal Information}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Mission}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Professional Career Summary}{5}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}M\&A Excellence}{5}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Cross-Border Collaboration \& Hong Kong IPO with IFRS}{6}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Transformation and Strategy in IPO Preparation}{6}{subsubsection.3.3.3}
